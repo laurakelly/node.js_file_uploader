@@ -1,0 +1,11 @@
+{
+  "name": "DataHero-file-uploader",
+  "description": "File uploader for DataHero challenge",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.0.0rc4",
+    "formidable": "1.0.11",
+    "jade": "0.27.2"
+  }
+}
