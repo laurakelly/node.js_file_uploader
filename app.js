@@ -35,7 +35,7 @@ app.get('/', site.index);
 
 // Upload
 
-app.all('/upload', upload.upload);
+app.all('/upload', upload.upload, upload.read_file);
 
 // File
 
